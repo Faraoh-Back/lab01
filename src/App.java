@@ -7,8 +7,8 @@ public class App {
         // Criando personagens
         Guerreiro guerreiro = new Guerreiro("Caire, o Barbaro", 100, 15);
         Mago mago = new Mago("Markin da Vara", 80, 8, 20);
-        Zumbi zumbi = new Zumbi("Paravello o Lerdo", 60, 10, 50);
-        Goblin goblin = new Goblin("Black o infeliz", 40, 8, 30, 15);
+        Zumbi zumbi = new Zumbi("Paravello, o Lerdo", 60, 10, 50);
+        Goblin goblin = new Goblin("Black, o Infeliz", 40, 8, 30, 15);
 
         // Exibindo status inicial
         System.out.println("*** Status Inicial ***");
