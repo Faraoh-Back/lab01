@@ -16,3 +16,15 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 ## Dependency Management
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+
+## Como compilar e rodar
+
+# Crie o diretório bin se não existir
+mkdir -p bin
+
+# Compile todos os arquivos .java
+javac -d bin src/jogo/Personagem.java src/jogo/Monstro.java src/jogo/Personagens/*.java src/App.java
+
+# Execute o programa
+java -cp bin App
